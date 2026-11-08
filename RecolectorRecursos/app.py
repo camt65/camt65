@@ -26,7 +26,6 @@ class RecolectorApp:
         main = ttk.Frame(self.root, padding=14)
         main.pack(fill="both", expand=True)
         main.columnconfigure(1, weight=1)
-        main.rowconfigure(7, weight=1)
 
         ttk.Label(
             main,

@@ -4,7 +4,6 @@ import csv
 import html
 import json
 import math
-import mimetypes
 import os
 import re
 import shutil

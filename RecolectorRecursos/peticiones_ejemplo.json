@@ -1,0 +1,45 @@
+{
+  "datos_obra": {
+    "titulo_obra": "Nombre de la obra",
+    "titulo_busqueda_en": "Official title",
+    "categoria": "anime",
+    "temporada": 1,
+    "autor_original": "Autor o creador",
+    "estudio_productora": "Estudio o productora",
+    "plataforma_oficial": "Plataforma oficial",
+    "enlace_oficial": "https://ejemplo.com",
+    "nombre_canal": "Mi canal"
+  },
+  "peticiones_escenas": [
+    {
+      "id": 1,
+      "nombre_identificador": "Presentacion_protagonista",
+      "tipo_recurso": "video",
+      "capitulo": 1,
+      "duracion_min": 3.0,
+      "duracion_max": 6.0,
+      "contexto_narracion": "Aquí se presenta al protagonista.",
+      "descripcion_visual": "El protagonista aparece por primera vez.",
+      "keywords_busqueda_en": "main character first appearance",
+      "frase_clave_dialogo": "No voy a rendirme",
+      "coincidencia": 1,
+      "archivo_local": "S01E01.mkv"
+    },
+    {
+      "id": 2,
+      "nombre_identificador": "Imagen_de_contexto",
+      "tipo_recurso": "imagen",
+      "descripcion_visual": "Imagen de una ciudad de noche.",
+      "keywords_busqueda_en": "city skyline night"
+    },
+    {
+      "id": 3,
+      "nombre_identificador": "Video_generico_de_ciudad",
+      "tipo_recurso": "video_stock",
+      "duracion_min": 3.0,
+      "duracion_max": 6.0,
+      "descripcion_visual": "Plano genérico de una ciudad al anochecer.",
+      "keywords_busqueda_en": "city skyline night"
+    }
+  ]
+}
